@@ -39,5 +39,4 @@ testem.log
 .DS_Store
 Thumbs.db
 .vscode/launch.json
-cypress/fixtures/state/store.json
 *.png
