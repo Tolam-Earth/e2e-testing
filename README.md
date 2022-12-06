@@ -3,7 +3,9 @@
 ## Setup
 
 In order for these tests to run successfully it is necessary to have completed the setup
-of Marketplace_Services and Marketplace-UI and have both applications up and running locally.  
+in Tolam-Demo repository in https://github.com/orgs/Tolam-Earth/repositories/tolam-demo.  Additionally 
+it is necessary for you to have successfully listed one of your own offsets following the steps documented here
+https://github.com/orgs/Tolam-Earth/repositories/tolam-demo/blob/main/TolamEarthHowTo.pdf
 
 Install dependencies with `npm install`
 
@@ -13,7 +15,7 @@ Firefox or Electron browser installed.
 There are 2 ways to run the tests:
 
 1. From command line you can run `node runner.js cypress open --env TAGS="@SMOKE_TEST" configFile=qa --browser chrome --headed`
-Replace "chrome" with the browser you are using ie "firefox" or "electron".  If you wish to run tests
+   (It is possible to replace "chrome" with "firefox" or "electron" however we are unable to certify the validity of these tests either browser).  If you wish to run tests
 headless then just remove the --headed parameter.
 2. To launch the Cypress UI run `./node_modules/.bin/cypress open` and select 
 the browser you wish to use.  From the browser window that opens you are able to 

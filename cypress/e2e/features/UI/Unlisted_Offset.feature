@@ -17,7 +17,7 @@ Feature: Unlisted Offsets
   @SMOKE_TEST @HEM-88
   Scenario: Choose 1 or more of my unlisted offsets
     Given I open the HEM page
-    And I enter the account id of "c"
+    And I enter the account id of "0.0.47879120"
     When I click the Sell Offsets button
     Then I verify that the List Selected button is disabled
 
@@ -82,7 +82,7 @@ Feature: Unlisted Offsets
     And I click the Sell Offsets button
     Then I verify that all of the "UNLISTED" offsets ids are displayed
 
-  @HEM-305
+  @SMOKE_TEST @HEM-305
   Scenario: Review summary of unlisted asset(s)" view with the required price
     Given I open the HEM page
     When I enter the account id of "0.0.48436940"

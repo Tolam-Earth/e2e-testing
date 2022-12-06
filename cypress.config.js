@@ -15,7 +15,7 @@ module.exports = defineConfig({
     openMode: 0,
   },
   env: {
-    marketplace_api_server: "http://localhost:8080/hem/v1/",
+    marketplace_api_server: "http://localhost:18080/hem/v1/",
     armm_api_server: "http://localhost:8040",
     DB: {
       user: 'armm',
